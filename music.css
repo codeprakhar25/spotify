@@ -1,0 +1,91 @@
+body{
+    background-color: antiquewhite;
+    overflow: hidden; 
+    }
+.navbar {
+    display: flex;
+    list-style-type:none;
+ background-color: greenyellow;
+ height: 1.5cm;
+}
+.navbar  li{
+    padding-left: 3cm;
+    text-align: center;
+    padding-top: 15px;
+}
+.login{
+    list-style-type: none;
+    display: flex;
+    margin-left: 9cm;
+}
+.login li{
+    padding-left: 8px;
+}
+.main{
+   display: flex;
+
+    height: 75vh;
+    width: 75%;
+    border-radius: 12px;
+    background-image: url(https://thumbs.dreamstime.com/b/wireless-headphone-media-player-blue-alarm-clock-paper-background-image-design-music-website-147288291.jpg);
+}
+.main img{
+    width: 26cm;
+    height: 12cm;
+
+}
+.pbar{
+ /*   position: sticky;*/
+    /*padding-left: 4.9cm;*/
+    background-color: black;
+    height: 60px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+#mypbar{
+    width: 25.7cm;
+}
+.songlist{
+   
+    color: aliceblue;
+    width: 7cm;
+    justify-content: space-between;
+    margin: 1cm 0.2cm;
+    border-radius: 12px;
+   
+}
+.songlist img{
+    height: 0.9cm;
+    width: 0.85cm;
+    background-color: black;
+    margin-left: 0.2cm;
+    border-radius: 1px;
+    justify-content: center;
+}
+.songitems{
+    margin: 10px 0;
+    background-color: black;
+    border-radius: 10px;
+    justify-content: center;
+padding-bottom: 5px;
+}
+.icons{
+    height: 20px;
+padding-left: 29cm;
+color: azure;
+width: 30cm;
+justify-content: space-between;
+margin-top: 4px;
+}
+.icons{
+    cursor: pointer;
+}
+#fontawesome{
+    padding-left:1.3cm;
+}
+#fontawesome{
+    cursor: pointer;
+}
